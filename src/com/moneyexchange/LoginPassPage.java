@@ -4,7 +4,9 @@
  */
 package com.moneyexchange;
 
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -16,9 +18,14 @@ public class LoginPassPage extends javax.swing.JFrame {
     /**
      * Creates new form LoginPassPage
      */
+        
+    
+    
     
     public LoginPassPage() {
         initComponents();
+        
+        this.setTitle("Money Exchange");      
     }
 
     /**
@@ -235,11 +242,11 @@ public class LoginPassPage extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(LoginPassPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+            
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new LoginPassPage().setVisible(true);
+                new LoginPassPage().setVisible(true);             
             }
         });
     }
